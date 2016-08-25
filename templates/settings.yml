@@ -69,6 +69,10 @@ wiki_compression:
   default: ""
 default_language:
   default: en
+force_default_language_for_anonymous:
+  default: 0
+force_default_language_for_loggedin:
+  default: 0
 host_name:
   default: {{redmine_domain}}
 protocol:
@@ -179,7 +183,7 @@ default_projects_modules:
   - gantt
 default_projects_tracker_ids:
   serialized: true
-  default: 
+  default:
 # Role given to a non-admin user who creates a project
 new_project_user_role_id:
   format: int
